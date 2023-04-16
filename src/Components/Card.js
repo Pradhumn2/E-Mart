@@ -10,7 +10,6 @@ const Card = (props) => {
     props.showAlert("Item Added To Cart" , "success")
   }
 
-  // console.log(props.data);
   return (
     <>
       <div className="card border border-secondary rounded card_product" style={{width: "18rem"}}>
